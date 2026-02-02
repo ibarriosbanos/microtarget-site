@@ -1,0 +1,194 @@
+[
+  {
+    "dataset_id": "sociodemographics",
+    "name": "Sociodemographics",
+    "category": "sociodemographics",
+    "description": "Micro territory indicators that describe who lives and moves through each area in Spain.",
+    "best_for": ["Network strategy", "Optimal expansion", "Omnichannel customer"],
+    "geographies": [
+      "100m_grid",
+      "road_segment",
+      "building_portal",
+      "census_tract",
+      "postal_code",
+      "municipality"
+    ],
+    "inside": ["Ask us"],
+    "access": ["api", "tables_product", "location_intelligence_app", "consulting"],
+    "formats": ["gpkg", "csv", "Ask us"],
+    "coverage": { "country": "Spain", "notes": "Modeled for the whole of Spain." },
+    "sample": {
+      "available": true,
+      "url": "https://www.microtarget.es/assets/unica360_demo.gpkg",
+      "notes": "Included in the single demo GeoPackage for 8 postcodes in Madrid and Barcelona."
+    }
+  },
+  {
+    "dataset_id": "income",
+    "name": "Income",
+    "category": "income",
+    "description": "Income indicators to size demand and plan the right offer by area.",
+    "best_for": ["Network strategy", "Optimal expansion", "Enrichment"],
+    "geographies": [
+      "100m_grid",
+      "road_segment",
+      "building_portal",
+      "census_tract",
+      "postal_code",
+      "municipality"
+    ],
+    "inside": ["Ask us"],
+    "access": ["api", "tables_product", "location_intelligence_app", "consulting"],
+    "formats": ["gpkg", "csv", "Ask us"],
+    "coverage": { "country": "Spain", "notes": "Modeled for the whole of Spain." },
+    "sample": {
+      "available": true,
+      "url": "https://www.microtarget.es/assets/unica360_demo.gpkg",
+      "notes": "Included in the single demo GeoPackage for 8 postcodes in Madrid and Barcelona."
+    }
+  },
+  {
+    "dataset_id": "mobility",
+    "name": "Mobility",
+    "category": "mobility",
+    "description": "Mobility indicators that explain how people move and where demand concentrates.",
+    "best_for": ["Network strategy", "Omnichannel customer", "Enrichment"],
+    "geographies": [
+      "100m_grid",
+      "road_segment",
+      "building_portal",
+      "census_tract",
+      "postal_code",
+      "municipality"
+    ],
+    "inside": ["Ask us"],
+    "access": ["api", "tables_product", "location_intelligence_app", "consulting"],
+    "formats": ["gpkg", "csv", "Ask us"],
+    "coverage": { "country": "Spain", "notes": "Modeled for the whole of Spain." },
+    "sample": {
+      "available": true,
+      "url": "https://www.microtarget.es/assets/unica360_demo.gpkg",
+      "notes": "Included in the single demo GeoPackage for 8 postcodes in Madrid and Barcelona."
+    }
+  },
+  {
+    "dataset_id": "commercial-offer",
+    "name": "Commercial Offer",
+    "category": "commercial_offer",
+    "description": "Indicators that summarize the commercial offer around each location.",
+    "best_for": ["Optimal expansion", "Omnichannel customer", "Enrichment"],
+    "geographies": [
+      "100m_grid",
+      "road_segment",
+      "building_portal",
+      "census_tract",
+      "postal_code",
+      "municipality"
+    ],
+    "inside": ["Ask us"],
+    "access": ["api", "tables_product", "location_intelligence_app", "consulting"],
+    "formats": ["gpkg", "csv", "Ask us"],
+    "coverage": { "country": "Spain", "notes": "Modeled for the whole of Spain." },
+    "sample": {
+      "available": true,
+      "url": "https://www.microtarget.es/assets/unica360_demo.gpkg",
+      "notes": "Included in the single demo GeoPackage for 8 postcodes in Madrid and Barcelona."
+    }
+  },
+  {
+    "dataset_id": "labor-demand",
+    "name": "Labor Demand",
+    "category": "labor_demand",
+    "description": "Labor demand indicators to understand the local economy and workforce pull.",
+    "best_for": ["Network strategy", "Optimal expansion", "Enrichment"],
+    "geographies": [
+      "100m_grid",
+      "road_segment",
+      "building_portal",
+      "census_tract",
+      "postal_code",
+      "municipality"
+    ],
+    "inside": ["Ask us"],
+    "access": ["api", "tables_product", "location_intelligence_app", "consulting"],
+    "formats": ["gpkg", "csv", "Ask us"],
+    "coverage": { "country": "Spain", "notes": "Modeled for the whole of Spain." },
+    "sample": {
+      "available": true,
+      "url": "https://www.microtarget.es/assets/unica360_demo.gpkg",
+      "notes": "Included in the single demo GeoPackage for 8 postcodes in Madrid and Barcelona."
+    }
+  },
+  {
+    "dataset_id": "tourism",
+    "name": "Tourism",
+    "category": "tourism",
+    "description": "Tourism indicators that help plan seasonal and visitor-driven demand.",
+    "best_for": ["Network strategy", "Omnichannel customer", "Enrichment"],
+    "geographies": [
+      "100m_grid",
+      "road_segment",
+      "building_portal",
+      "census_tract",
+      "postal_code",
+      "municipality"
+    ],
+    "inside": ["Ask us"],
+    "access": ["api", "tables_product", "location_intelligence_app", "consulting"],
+    "formats": ["gpkg", "csv", "Ask us"],
+    "coverage": { "country": "Spain", "notes": "Modeled for the whole of Spain." },
+    "sample": {
+      "available": true,
+      "url": "https://www.microtarget.es/assets/unica360_demo.gpkg",
+      "notes": "Included in the single demo GeoPackage for 8 postcodes in Madrid and Barcelona."
+    }
+  },
+  {
+    "dataset_id": "urban-centrality",
+    "name": "Urban Centrality",
+    "category": "urban_centrality",
+    "description": "Indicators describing how central and connected an area feels in daily life.",
+    "best_for": ["Network strategy", "Optimal expansion", "Enrichment"],
+    "geographies": [
+      "100m_grid",
+      "road_segment",
+      "building_portal",
+      "census_tract",
+      "postal_code",
+      "municipality"
+    ],
+    "inside": ["Ask us"],
+    "access": ["api", "tables_product", "location_intelligence_app", "consulting"],
+    "formats": ["gpkg", "csv", "Ask us"],
+    "coverage": { "country": "Spain", "notes": "Modeled for the whole of Spain." },
+    "sample": {
+      "available": true,
+      "url": "https://www.microtarget.es/assets/unica360_demo.gpkg",
+      "notes": "Included in the single demo GeoPackage for 8 postcodes in Madrid and Barcelona."
+    }
+  },
+  {
+    "dataset_id": "b2b-demand",
+    "name": "B2B Demand",
+    "category": "b2b_demand",
+    "description": "B2B demand indicators to plan sales coverage and service areas.",
+    "best_for": ["Network strategy", "Optimal expansion", "Enrichment"],
+    "geographies": [
+      "100m_grid",
+      "road_segment",
+      "building_portal",
+      "census_tract",
+      "postal_code",
+      "municipality"
+    ],
+    "inside": ["Ask us"],
+    "access": ["api", "tables_product", "location_intelligence_app", "consulting"],
+    "formats": ["gpkg", "csv", "Ask us"],
+    "coverage": { "country": "Spain", "notes": "Modeled for the whole of Spain." },
+    "sample": {
+      "available": true,
+      "url": "https://www.microtarget.es/assets/unica360_demo.gpkg",
+      "notes": "Included in the single demo GeoPackage for 8 postcodes in Madrid and Barcelona."
+    }
+  }
+]

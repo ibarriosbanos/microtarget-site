@@ -1,0 +1,5 @@
+<svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="40" height="40" rx="12" fill="#2563EB"/>
+  <path d="M12 26V14H16L20 20L24 14H28V26H24V20L20 26L16 20V26H12Z" fill="white"/>
+  <text x="52" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">Microtarget</text>
+</svg>
