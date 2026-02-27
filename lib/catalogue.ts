@@ -36,7 +36,7 @@ export type Dataset = {
   inside: string[];
   access: DatasetAccess[];
   formats: DatasetFormat[];
-  coverage: { country: "Spain"; notes: string };
+  coverage: { country: string; notes: string };
   sample: { available: boolean; url: string; notes: string };
 };
 

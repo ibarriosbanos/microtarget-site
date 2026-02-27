@@ -44,7 +44,7 @@ export default function ContactPage({
               </p>
               <div className="rounded-2xl border border-border bg-background p-4 text-sm text-muted">
                 <p className="font-semibold text-foreground">Microtarget</p>
-                <p>Carrer Calàbria 242, 08029 Barcelona</p>
+                <p>Location intelligence for global teams</p>
                 <p>+34 659 88 90 32</p>
                 <p>info@unica360.com</p>
               </div>

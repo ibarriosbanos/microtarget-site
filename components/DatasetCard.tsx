@@ -20,7 +20,8 @@ export default function DatasetCard({ dataset, onSelect }: DatasetCardProps) {
           <span className="font-semibold text-foreground">Best for:</span> {dataset.best_for.join(", ")}
         </p>
         <p>
-          <span className="font-semibold text-foreground">Coverage:</span> Spain
+          <span className="font-semibold text-foreground">Coverage:</span>{" "}
+          {dataset.coverage.country}
         </p>
         <p>
           <span className="font-semibold text-foreground">Access:</span>{" "}

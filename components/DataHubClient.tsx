@@ -18,26 +18,18 @@ export default function DataHubClient({ datasets }: { datasets: Dataset[] }) {
   const searchParams = useSearchParams();
 
   const [search, setSearch] = useState("");
-  const [selectedCategories, setSelectedCategories] = useState<DatasetCategory[]>([]);
-  const [selectedAccess, setSelectedAccess] = useState<DatasetAccess[]>([]);
-  const [selectedGeographies, setSelectedGeographies] = useState<GeographyLevel[]>([]);
-  const [selectedId, setSelectedId] = useState<string | null>(null);
-  const [sampleOnly, setSampleOnly] = useState(false);
+  const [selectedCategories, setSelectedCategories] = useState<DatasetCategory[]>(() =>
+    toArray<DatasetCategory>(searchParams.get("category")),
+  );
+  const [selectedAccess, setSelectedAccess] = useState<DatasetAccess[]>(() =>
+    toArray<DatasetAccess>(searchParams.get("access")),
+  );
+  const [selectedGeographies, setSelectedGeographies] = useState<GeographyLevel[]>(() =>
+    toArray<GeographyLevel>(searchParams.get("geo")),
+  );
+  const [selectedId, setSelectedId] = useState<string | null>(() => searchParams.get("dataset"));
+  const [sampleOnly, setSampleOnly] = useState(() => searchParams.get("sample") === "1");
   const [showMobileDetail, setShowMobileDetail] = useState(false);
-
-  useEffect(() => {
-    const categoryParam = searchParams.get("category");
-    const accessParam = searchParams.get("access");
-    const geoParam = searchParams.get("geo");
-    const sampleParam = searchParams.get("sample");
-    const datasetParam = searchParams.get("dataset");
-
-    if (categoryParam) setSelectedCategories(toArray<DatasetCategory>(categoryParam));
-    if (accessParam) setSelectedAccess(toArray<DatasetAccess>(accessParam));
-    if (geoParam) setSelectedGeographies(toArray<GeographyLevel>(geoParam));
-    if (sampleParam) setSampleOnly(sampleParam === "1");
-    if (datasetParam) setSelectedId(datasetParam);
-  }, [searchParams]);
 
   const filtered = useMemo(() => {
     return datasets.filter((dataset) => {
@@ -114,7 +106,7 @@ export default function DataHubClient({ datasets }: { datasets: Dataset[] }) {
             <div>
               <p className="font-semibold">Demo sample download</p>
               <p className="text-xs text-muted">
-                Single GeoPackage with 8 postcodes in Madrid and Barcelona.
+                Single GeoPackage sample with multiple representative postcodes.
               </p>
             </div>
             <Button href="https://www.microtarget.es/assets/unica360_demo.gpkg" size="sm">

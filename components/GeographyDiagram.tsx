@@ -38,7 +38,7 @@ export default function GeographyDiagram() {
           ))}
         </div>
       </div>
-      <p className="mt-4 text-sm text-muted">Modeled for all of Spain.</p>
+      <p className="mt-4 text-sm text-muted">Modeled for your selected geography.</p>
     </div>
   );
 }

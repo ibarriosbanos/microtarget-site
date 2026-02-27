@@ -1,0 +1,40 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#081A38"/>
+      <stop offset="1" stop-color="#0F2752"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g stroke="#9AB6E8" stroke-opacity="0.3" fill-opacity="0.65">
+    <polygon points="240,200 320,155 400,200 400,290 320,335 240,290" fill="#1B3A72"/>
+    <polygon points="420,200 500,155 580,200 580,290 500,335 420,290" fill="#20457F"/>
+    <polygon points="600,200 680,155 760,200 760,290 680,335 600,290" fill="#2A5290"/>
+    <polygon points="780,200 860,155 940,200 940,290 860,335 780,290" fill="#315E9D"/>
+    <polygon points="960,200 1040,155 1120,200 1120,290 1040,335 960,290" fill="#3767A8"/>
+    <polygon points="1140,200 1220,155 1300,200 1300,290 1220,335 1140,290" fill="#2A5290"/>
+
+    <polygon points="330,355 410,310 490,355 490,445 410,490 330,445" fill="#28559B"/>
+    <polygon points="510,355 590,310 670,355 670,445 590,490 510,445" fill="#3669B3"/>
+    <polygon points="690,355 770,310 850,355 850,445 770,490 690,445" fill="#4E7DCA"/>
+    <polygon points="870,355 950,310 1030,355 1030,445 950,490 870,445" fill="#5990E2"/>
+    <polygon points="1050,355 1130,310 1210,355 1210,445 1130,490 1050,445" fill="#3A71BE"/>
+
+    <polygon points="240,510 320,465 400,510 400,600 320,645 240,600" fill="#20457F"/>
+    <polygon points="420,510 500,465 580,510 580,600 500,645 420,600" fill="#2E5CA1"/>
+    <polygon points="600,510 680,465 760,510 760,600 680,645 600,600" fill="#4A81D1"/>
+    <polygon points="780,510 860,465 940,510 940,600 860,645 780,600" fill="#67A2F2"/>
+    <polygon points="960,510 1040,465 1120,510 1120,600 1040,645 960,600" fill="#4A81D1"/>
+    <polygon points="1140,510 1220,465 1300,510 1300,600 1220,645 1140,600" fill="#2E5CA1"/>
+  </g>
+  <g>
+    <circle cx="770" cy="400" r="115" fill="#7CFF4F" fill-opacity="0.18"/>
+    <circle cx="860" cy="555" r="130" fill="#F6C15A" fill-opacity="0.2"/>
+    <circle cx="1040" cy="400" r="95" fill="#FF6D4A" fill-opacity="0.17"/>
+  </g>
+  <g fill="#EBF7FF">
+    <circle cx="770" cy="400" r="7"/>
+    <circle cx="860" cy="555" r="7"/>
+    <circle cx="1040" cy="400" r="7"/>
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#091432"/>
+      <stop offset="1" stop-color="#102249"/>
+    </linearGradient>
+    <radialGradient id="hot1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(470 360) rotate(90) scale(180 220)">
+      <stop offset="0" stop-color="#FFEE8A" stop-opacity="0.9"/>
+      <stop offset="0.45" stop-color="#FF8B4A" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#FF3B3B" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hot2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1040 520) rotate(90) scale(220 260)">
+      <stop offset="0" stop-color="#FFECA0" stop-opacity="0.85"/>
+      <stop offset="0.45" stop-color="#FF9F49" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#FF3B3B" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hot3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(860 250) rotate(90) scale(140 170)">
+      <stop offset="0" stop-color="#FFEF9E" stop-opacity="0.7"/>
+      <stop offset="0.5" stop-color="#FF9D4A" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#FF3B3B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g opacity="0.35" stroke="#7FA4E3" stroke-width="1">
+    <path d="M0 100H1600"/>
+    <path d="M0 200H1600"/>
+    <path d="M0 300H1600"/>
+    <path d="M0 400H1600"/>
+    <path d="M0 500H1600"/>
+    <path d="M0 600H1600"/>
+    <path d="M0 700H1600"/>
+    <path d="M0 800H1600"/>
+    <path d="M200 0V900"/>
+    <path d="M400 0V900"/>
+    <path d="M600 0V900"/>
+    <path d="M800 0V900"/>
+    <path d="M1000 0V900"/>
+    <path d="M1200 0V900"/>
+    <path d="M1400 0V900"/>
+  </g>
+  <path d="M90 730C220 590 300 610 420 540C510 490 630 500 730 430C870 335 950 350 1080 290C1230 220 1360 180 1510 110" stroke="#83E0FF" stroke-opacity="0.7" stroke-width="8" stroke-linecap="round"/>
+  <path d="M130 230C260 210 380 260 510 255C700 248 850 150 1020 170C1170 188 1320 300 1490 350" stroke="#7CFF4F" stroke-opacity="0.58" stroke-width="6" stroke-linecap="round"/>
+  <rect width="1600" height="900" fill="url(#hot1)"/>
+  <rect width="1600" height="900" fill="url(#hot2)"/>
+  <rect width="1600" height="900" fill="url(#hot3)"/>
+  <g fill="#DFF2FF" fill-opacity="0.85">
+    <circle cx="470" cy="360" r="6"/>
+    <circle cx="1040" cy="520" r="6"/>
+    <circle cx="860" cy="250" r="5"/>
+    <circle cx="1240" cy="330" r="4"/>
+    <circle cx="610" cy="560" r="4"/>
+  </g>
+</svg>

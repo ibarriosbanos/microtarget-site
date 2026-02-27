@@ -3,7 +3,7 @@
     "dataset_id": "sociodemographics",
     "name": "Sociodemographics",
     "category": "sociodemographics",
-    "description": "Micro territory indicators that describe who lives and moves through each area in Spain.",
+    "description": "Micro territory indicators that describe who lives and moves through each area.",
     "best_for": ["Network strategy", "Optimal expansion", "Omnichannel customer"],
     "geographies": [
       "100m_grid",
@@ -16,11 +16,11 @@
     "inside": ["Ask us"],
     "access": ["api", "tables_product", "location_intelligence_app", "consulting"],
     "formats": ["gpkg", "csv", "Ask us"],
-    "coverage": { "country": "Spain", "notes": "Modeled for the whole of Spain." },
+    "coverage": { "country": "Selected geography", "notes": "Modeled for the full selected geography." },
     "sample": {
       "available": true,
       "url": "https://www.microtarget.es/assets/unica360_demo.gpkg",
-      "notes": "Included in the single demo GeoPackage for 8 postcodes in Madrid and Barcelona."
+      "notes": "Included in the single demo GeoPackage with representative postcodes."
     }
   },
   {
@@ -40,11 +40,11 @@
     "inside": ["Ask us"],
     "access": ["api", "tables_product", "location_intelligence_app", "consulting"],
     "formats": ["gpkg", "csv", "Ask us"],
-    "coverage": { "country": "Spain", "notes": "Modeled for the whole of Spain." },
+    "coverage": { "country": "Selected geography", "notes": "Modeled for the full selected geography." },
     "sample": {
       "available": true,
       "url": "https://www.microtarget.es/assets/unica360_demo.gpkg",
-      "notes": "Included in the single demo GeoPackage for 8 postcodes in Madrid and Barcelona."
+      "notes": "Included in the single demo GeoPackage with representative postcodes."
     }
   },
   {
@@ -64,11 +64,11 @@
     "inside": ["Ask us"],
     "access": ["api", "tables_product", "location_intelligence_app", "consulting"],
     "formats": ["gpkg", "csv", "Ask us"],
-    "coverage": { "country": "Spain", "notes": "Modeled for the whole of Spain." },
+    "coverage": { "country": "Selected geography", "notes": "Modeled for the full selected geography." },
     "sample": {
       "available": true,
       "url": "https://www.microtarget.es/assets/unica360_demo.gpkg",
-      "notes": "Included in the single demo GeoPackage for 8 postcodes in Madrid and Barcelona."
+      "notes": "Included in the single demo GeoPackage with representative postcodes."
     }
   },
   {
@@ -88,11 +88,11 @@
     "inside": ["Ask us"],
     "access": ["api", "tables_product", "location_intelligence_app", "consulting"],
     "formats": ["gpkg", "csv", "Ask us"],
-    "coverage": { "country": "Spain", "notes": "Modeled for the whole of Spain." },
+    "coverage": { "country": "Selected geography", "notes": "Modeled for the full selected geography." },
     "sample": {
       "available": true,
       "url": "https://www.microtarget.es/assets/unica360_demo.gpkg",
-      "notes": "Included in the single demo GeoPackage for 8 postcodes in Madrid and Barcelona."
+      "notes": "Included in the single demo GeoPackage with representative postcodes."
     }
   },
   {
@@ -112,11 +112,11 @@
     "inside": ["Ask us"],
     "access": ["api", "tables_product", "location_intelligence_app", "consulting"],
     "formats": ["gpkg", "csv", "Ask us"],
-    "coverage": { "country": "Spain", "notes": "Modeled for the whole of Spain." },
+    "coverage": { "country": "Selected geography", "notes": "Modeled for the full selected geography." },
     "sample": {
       "available": true,
       "url": "https://www.microtarget.es/assets/unica360_demo.gpkg",
-      "notes": "Included in the single demo GeoPackage for 8 postcodes in Madrid and Barcelona."
+      "notes": "Included in the single demo GeoPackage with representative postcodes."
     }
   },
   {
@@ -136,11 +136,11 @@
     "inside": ["Ask us"],
     "access": ["api", "tables_product", "location_intelligence_app", "consulting"],
     "formats": ["gpkg", "csv", "Ask us"],
-    "coverage": { "country": "Spain", "notes": "Modeled for the whole of Spain." },
+    "coverage": { "country": "Selected geography", "notes": "Modeled for the full selected geography." },
     "sample": {
       "available": true,
       "url": "https://www.microtarget.es/assets/unica360_demo.gpkg",
-      "notes": "Included in the single demo GeoPackage for 8 postcodes in Madrid and Barcelona."
+      "notes": "Included in the single demo GeoPackage with representative postcodes."
     }
   },
   {
@@ -160,11 +160,11 @@
     "inside": ["Ask us"],
     "access": ["api", "tables_product", "location_intelligence_app", "consulting"],
     "formats": ["gpkg", "csv", "Ask us"],
-    "coverage": { "country": "Spain", "notes": "Modeled for the whole of Spain." },
+    "coverage": { "country": "Selected geography", "notes": "Modeled for the full selected geography." },
     "sample": {
       "available": true,
       "url": "https://www.microtarget.es/assets/unica360_demo.gpkg",
-      "notes": "Included in the single demo GeoPackage for 8 postcodes in Madrid and Barcelona."
+      "notes": "Included in the single demo GeoPackage with representative postcodes."
     }
   },
   {
@@ -184,11 +184,11 @@
     "inside": ["Ask us"],
     "access": ["api", "tables_product", "location_intelligence_app", "consulting"],
     "formats": ["gpkg", "csv", "Ask us"],
-    "coverage": { "country": "Spain", "notes": "Modeled for the whole of Spain." },
+    "coverage": { "country": "Selected geography", "notes": "Modeled for the full selected geography." },
     "sample": {
       "available": true,
       "url": "https://www.microtarget.es/assets/unica360_demo.gpkg",
-      "notes": "Included in the single demo GeoPackage for 8 postcodes in Madrid and Barcelona."
+      "notes": "Included in the single demo GeoPackage with representative postcodes."
     }
   }
 ]

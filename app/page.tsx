@@ -3,21 +3,20 @@ import Container from "@/components/Container";
 import Section from "@/components/Section";
 import VideoHero from "@/components/VideoHero";
 import UseCaseGrid from "@/components/UseCaseGrid";
-import DataDomains from "@/components/DataDomains";
-import GeographyDiagram from "@/components/GeographyDiagram";
+import VerticalsGrid from "@/components/VerticalsGrid";
 import DataHubTeaser from "@/components/DataHubTeaser";
 import AccessMethods from "@/components/AccessMethods";
 import TrustMethods from "@/components/TrustMethods";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Microtarget | Better location based decisions",
+  title: "Microtarget | Confident location decisions at 100m grid detail",
   description:
-    "Micro territory indicators shaping demand across sectors. Work at 100 meter grid detail across Spain.",
+    "Turn micro-territory complexity into decisions you can defend, with reliable indicators on a consistent 100m grid.",
   openGraph: {
-    title: "Microtarget | Better location based decisions",
+    title: "Microtarget | Confident location decisions at 100m grid detail",
     description:
-      "Micro territory indicators shaping demand across sectors. Work at 100 meter grid detail across Spain.",
+      "Turn micro-territory complexity into decisions you can defend, with reliable indicators on a consistent 100m grid.",
     type: "website",
   },
 };
@@ -27,13 +26,6 @@ const orgJsonLd = {
   "@type": "Organization",
   name: "Microtarget",
   email: "info@unica360.com",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "Carrer Calàbria 242",
-    addressLocality: "Barcelona",
-    postalCode: "08029",
-    addressCountry: "ES",
-  },
 };
 
 export default function HomePage() {
@@ -46,50 +38,19 @@ export default function HomePage() {
       <VideoHero />
 
       <Section
-        eyebrow="From problem to outcome"
-        title="Make confident location decisions"
-        description="Micro territory indicators turn complexity into clear business actions."
-      >
-        <Container>
-          <div className="grid gap-4 md:grid-cols-3">
-            {[
-              "Choose where to open",
-              "Know what surrounds each site",
-              "Plan network and delivery",
-            ].map((item) => (
-              <div
-                key={item}
-                className="rounded-3xl border border-border bg-surface p-6 text-sm font-semibold text-foreground"
-                data-reveal
-              >
-                {item}
-              </div>
-            ))}
-          </div>
-        </Container>
-      </Section>
-
-      <Section
         id="use-cases"
-        eyebrow="Use cases"
-        title="Microtarget supports the decisions that move growth"
-        description="Four core use cases that apply across sectors."
-      >
-        <Container>
-          <UseCaseGrid />
-        </Container>
-      </Section>
-
-      <Section
-        id="data"
-        eyebrow="What data you get"
-        title="Eight domains, one consistent grid"
-        description="Plain-language indicators designed for business teams and analysts alike."
+        eyebrow="From problem to outcome"
+        title="Make Confident Location Decisions"
+        description="Turn micro-territory complexity into decisions you can defend."
       >
         <Container>
           <div className="space-y-8">
-            <DataDomains />
-            <GeographyDiagram />
+            <VerticalsGrid layout="large" />
+            <p className="text-sm text-muted">
+              Open each vertical to see decision questions and use cases answered on a
+              consistent 100m grid.
+            </p>
+            <UseCaseGrid />
           </div>
         </Container>
       </Section>

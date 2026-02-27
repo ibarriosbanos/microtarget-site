@@ -7,7 +7,7 @@ export default function TrustMethods() {
           <h3 className="mt-4 text-xl font-semibold text-foreground">Built from open sources</h3>
           <p className="mt-3 text-sm text-muted">
             Indicators are derived from advanced modeling applied mostly to public data sources,
-            with consistent coverage across Spain.
+            with consistent coverage across target geographies.
           </p>
         </div>
         <div className="rounded-2xl border border-border bg-background p-4 text-sm text-muted">

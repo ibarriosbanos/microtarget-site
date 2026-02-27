@@ -18,10 +18,10 @@ export default function Header() {
         </Link>
         <nav className="hidden items-center gap-6 text-sm font-semibold text-muted md:flex">
           <Link href="/#use-cases" className="transition hover:text-foreground">
-            Use cases
+            Decisions
           </Link>
-          <Link href="/#data" className="transition hover:text-foreground">
-            Data
+          <Link href="/verticals" className="transition hover:text-foreground">
+            Verticals
           </Link>
           <Link href="/data-hub" className="transition hover:text-foreground">
             Data Hub

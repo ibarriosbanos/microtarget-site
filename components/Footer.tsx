@@ -8,12 +8,18 @@ export default function Footer() {
         <div className="space-y-3">
           <p className="text-lg font-semibold text-foreground">Microtarget</p>
           <div className="text-sm text-muted">
-            <p>Carrer Calàbria 242, 08029 Barcelona</p>
+            <p>Location intelligence for global teams</p>
             <p>+34 659 88 90 32</p>
             <p>info@unica360.com</p>
           </div>
         </div>
         <div className="flex flex-col gap-2 text-sm font-semibold text-muted">
+          <Link href="/verticals" className="transition hover:text-foreground">
+            Verticals
+          </Link>
+          <Link href="/data-hub" className="transition hover:text-foreground">
+            Data Hub
+          </Link>
           <Link href="/privacy" className="transition hover:text-foreground">
             Privacy
           </Link>
